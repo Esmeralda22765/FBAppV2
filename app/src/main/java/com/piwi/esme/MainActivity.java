@@ -48,12 +48,12 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onCancel() {
-                info.setText("Login attempt canceled.");
+                info.setText("Login cancelado");
             }
 
             @Override
             public void onError(FacebookException e) {
-                info.setText("Login attempt failed.");
+                info.setText("Login fallido");
             }
         });
     }

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fondo"
     android:padding="16dp"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/info"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:textSize="18sp"
-        />
+        android:textColor="@color/com_facebook_primary_button_text_color"
+        android:textSize="18sp" />
 
     <com.facebook.login.widget.LoginButton
         android:id="@+id/login_button"
@@ -26,8 +27,9 @@
         android:id="@+id/btn_link"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
+        android:background="?attr/colorAccent"
         android:text="@string/share_link"
-        android:translationY="450dp"/>
+        android:translationY="450dp" />
 
 
 </RelativeLayout>
