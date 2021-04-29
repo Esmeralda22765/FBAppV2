@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RedesSociales2</string>
+    <string name="facebook_app_id">912660059518815</string>
+    <string name="fb_login_protocol_scheme">fb912660059518815</string>
+
+    <string name="share_link">Share link</string>
+</resources>
